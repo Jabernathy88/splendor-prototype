@@ -1,13 +1,13 @@
 import React from 'react';
-import GameCard from './GameCard';
+import GameRow from './GameRow';
 
 const GameBoard = () => {
   return (
-    <div id="gameBoard" className="container-fluid bg-blue-grey h-75">
-      <p>Hello from GameBoard</p>
+    <div id="gameBoard" className="container-fluid bg-blue-grey py-3">
+      <GameRow />
+      <GameRow />
+      <GameRow />
       <br />
-      <GameCard />
-      
     </div>
   );
 };

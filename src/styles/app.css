@@ -24,8 +24,16 @@ h1, h2, h3, h4, h5, h6, p {
 .bg-blue-grey {
   background: #eceff1;
 }
-
+/* test alternate viewports */
 div.ipad-test {
   height: 762px;
   width: 1020px;
+}
+/* fixed width gameboard */
+#gameBoard {
+  width: 1024px;
+  min-height: 760px;
+}
+.row-game-board {
+  height: 350px;
 }
