@@ -3,7 +3,7 @@ html, body, #root, #content {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: block;
 }
 html {
@@ -23,4 +23,9 @@ h1, h2, h3, h4, h5, h6, p {
 /* neutral bg */
 .bg-blue-grey {
   background: #eceff1;
+}
+
+div.ipad-test {
+  height: 762px;
+  width: 1020px;
 }
