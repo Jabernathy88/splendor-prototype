@@ -3,8 +3,9 @@ import GameCard from './GameCard';
 
 const GameBoard = () => {
   return (
-    <div>
-      Hello from GameBoard
+    <div id="gameBoard" className="container-fluid bg-blue-grey h-75">
+      <p>Hello from GameBoard</p>
+      <br />
       <GameCard />
       
     </div>
