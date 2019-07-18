@@ -31,9 +31,11 @@ div.ipad-test {
 }
 /* fixed width gameboard */
 #gameBoard {
-  width: 1024px;
+  max-width: 1024px;
   min-height: 760px;
 }
 .row-game-board {
   height: 350px;
 }
+
+/* NOTE: iPad Vertical should be =< 170px for individual cards */
